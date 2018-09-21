@@ -235,12 +235,13 @@ h2.titre-mobile {
     width: 100%;
     z-index: 4;
     color: rgb(158, 137, 17);
-    /*text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;}*/
+}
 
-.fab {
+ .fab {
     color: #3886a5;
     font-size: 2.5em;
   }
+
   .fas {
     color: #3886a5;
     font-size: 2.5em;
@@ -248,7 +249,7 @@ h2.titre-mobile {
   .fab:hover {
     color: #31748fc9;
     }
-    .fas:hover {
+.fas:hover {
         color: #31748fc9;
         }
 
