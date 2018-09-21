@@ -109,9 +109,8 @@ background-image: url("photos/Matthieuface.jpg");
 height: 60vw;
 background-size: cover;
 opacity: 0;
+
 }
-
-
 
 
 
@@ -173,6 +172,7 @@ margin-left: 2rem;
 .nom_center
 {
 text-align: center;
+margin-bottom: 4%;
 height: 35%;
 }
 
@@ -230,13 +230,12 @@ h2.titre-mobile {
     font-family: 'sketch_blockbold', arial;
     margin-top: -2%;
     border-radius: 10px; 
-    font-size: 4vw;
+    font-size: 5.5vw;
     text-align: center; 
     width: 100%;
     z-index: 4;
-    color: rgb(250, 214, 9);
-    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;}
-
+    color: rgb(158, 137, 17);
+    /*text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;}*/
 
 .fab {
     color: #3886a5;
@@ -246,6 +245,12 @@ h2.titre-mobile {
     color: #3886a5;
     font-size: 2.5em;
   }
+  .fab:hover {
+    color: #31748fc9;
+    }
+    .fas:hover {
+        color: #31748fc9;
+        }
 
   .img-fluid {
     margin:0;
@@ -278,7 +283,6 @@ h2.nom
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
-/* Your Styles here */
 
 
 .p2 {
